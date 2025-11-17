@@ -1,14 +1,14 @@
-import g1 from '../assets/gal1cordelia.jpeg';
-import g2 from '../assets/gal2cordelia.jpeg';
-import g3 from '../assets/gal3.jpeg';
-import g4 from '../assets/g4.jpeg';
+import G1 from '../assets/G1.jpg';
+import G2 from '../assets/G2.jpg';
+import G5 from '../assets/G5.jpg';
 
-const imgs = [g1, g2, g3, g4];
+const imgs = [G1,G2,G5];
 
 export default function Gallery() {
   return (
     <section className="max-w-7xl mx-auto px-4 pb-16">
-      <h2 className="text-3xl md:text-4xl font-extrabold mb-6">Galería</h2>
+      <h2 className="text-3xl md:text-4xl font-extrabold mb-6">
+        Galeria de fotos</h2>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
         {imgs.map((src, i) => (

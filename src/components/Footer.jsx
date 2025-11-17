@@ -1,9 +1,8 @@
 export default function Footer(){
   // 🔁 Cambia estos links y el número de WhatsApp
-  const LINKS = {
-    instagram: 'https://www.instagram.com/cordeliamariscos/',   
-    facebook:  'https://www.facebook.com/cordeliamariscos/',  
-    whatsapp:  'https://wa.me/529811026456?text=Hola%20quiero%20reservar%20una%20mesa'
+  const LINKS = {  
+    facebook:  'https://www.facebook.com/crunnuevodespertar',  
+    whatsapp:  'https://wa.me/529811951394?text=Hola%20quiero%20reservar%20una%20mesa'
   };
 
   // Iconos SVG (sin dependencias)
@@ -31,9 +30,9 @@ export default function Footer(){
     <footer className="mt-12 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 py-8 grid md:grid-cols-3 gap-6 text-sm">
         <div>
-          <h4 className="font-semibold">Cordelia Mariscos</h4>
-          <p className="text-white/70">Av. Justo Sierra Méndez 497, Barrio de San Román, 24040 San Francisco de Campeche, Camp., México</p>
-          <p className="text-white/70">L–D 12:00–22:00 • Tel: (981) 1026456</p>
+          <h4 className="font-semibold">Un Nuevo Despertar</h4>
+          <p className="text-white/70">Av. Lázaro Cárdenas 117, Sector, Las Flores, 24095 San Francisco de Campeche, Camp.</p>
+          <p className="text-white/70">L–D 12:00–22:00 • Tel:  (981) 1951394</p>
         </div>
 
         <div>
@@ -64,7 +63,7 @@ export default function Footer(){
       </div>
 
       <div className="border-t border-white/10 py-4 text-center text-xs text-white/50">
-        © {new Date().getFullYear()} Cordelia Mariscos. Todos los derechos reservados.
+        © {new Date().getFullYear()} Un Nuevo Despertar. Todos los derechos reservados.
       </div>
     </footer>
   );

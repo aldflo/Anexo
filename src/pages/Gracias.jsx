@@ -1,4 +1,5 @@
 // src/pages/Gracias.jsx
+// src/pages/Gracias.jsx
 export default function Gracias(){
   return (
     <section className="max-w-3xl mx-auto px-4 py-16 text-center">

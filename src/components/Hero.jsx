@@ -2,9 +2,9 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import img1 from '../assets/m1.png';
-import img2 from '../assets/m2.png';
-import img3 from '../assets/m3.png';
+import img1 from '../assets/A1.jpg';
+import img2 from '../assets/G6.jpg';
+import img3 from '../assets/G7.jpg';
 
 const slides = [img1, img2, img3];
 const AUTOPLAY_MS = 2000; // ⬅️ 2 segundos
@@ -52,17 +52,7 @@ export default function Hero() {
         </div>
 
         <div className="relative grid place-items-center text-center h-full">
-          <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-white">
-              Sabor del mar, <span className="text-coral">frescura</span> en cada bocado
-            </h1>
-
-            <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
-              <Link to="/menu" className="px-6 py-3 rounded-xl bg-coral text-tinta font-semibold hover:opacity-90">
-                Ver Menú
-              </Link>
-            </div>
-          </div>
+         
         </div>
 
         <button onClick={prev} aria-label="Anterior" className="absolute left-3 top-1/2 -translate-y-1/2 bg-black/35 hover:bg-black/55 text-white rounded-full p-2">

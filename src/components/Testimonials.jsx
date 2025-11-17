@@ -1,7 +1,7 @@
 const quotes = [
-{ name: 'Diana', text: 'El mejor ceviche que he probado. Atención excelente.' },
-{ name: 'Luis', text: 'Pescado fresquísimo y ambiente agradable. Recomendado.' },
-{ name: 'Camila', text: 'Cocteles de camarón deliciosos y porciones generosas.' },
+{ name: 'Anonimo', text: '' },
+{ name: 'Anonimo', text: '' },
+
 ]
 export default function Testimonials(){
 return (

@@ -1,36 +1,21 @@
 const data = {
-Ceviches: [
-{ name: 'Ceviche Peruano', price: 170, desc: 'Leche de tigre, choclo, camote' },
-{ name: 'Ceviche Mango Habanero', price: 175, desc: 'Toque dulce y picante' },
+Servicios: [
+{ name: 'Cristoterapia' , desc: '' },
+{ name: 'Estudio Biblico', desc: '' },
 ],
-Cocteles: [
-{ name: 'Coctel de Camarón', price: 160, desc: 'Clásico, jugo de tomate y especias' },
-{ name: 'Campechano', price: 180, desc: 'Pulpo + camarón' },
+Instalaciones: [
+{ name: 'Recamaras Climatizadas' },
+{ name: 'Sanitarios Limpios' },
 ],
-Pescados: [
-{ name: 'Mojo de Ajo', price: 230, desc: 'Con guarniciones' },
-{ name: 'A la Diabla', price: 230, desc: 'Picante' },
-],
-Bebidas: [
-{ name: 'Coca cola', price: 230, desc: 'Con guarniciones' },
-{ name: 'Agua Mineral', price: 230, desc: 'Picante' },
-],
-Cervezas: [
-{ name: 'XXLaguer', price: 230, desc: 'Con guarniciones' },
-{ name: 'Bohemia Clara', price: 230, desc: 'Picante' },
-],
-Cocteles: [
-{ name: 'Mojito', price: 230, desc: 'Con guarniciones' },
-{ name: 'Margarita', price: 230, desc: 'Picante' },
-],
+
 }
 
 
 export default function Menu(){
 return (
 <section className="max-w-7xl mx-auto px-4 py-12">
-<h1 className="text-3xl md:text-4xl font-extrabold">Menú Completo</h1>
-<p className="text-white/70 mt-2">Precios en MXN. Pregunta por disponibilidad del día.</p>
+<h1 className="text-3xl md:text-4xl font-extrabold">SERVICIOS E INSTALACIONES</h1>
+<p className="text-white/70 mt-2">¿Necesitas ayuda? ¡No estas solo!.</p>
 <div className="mt-8 grid md:grid-cols-3 gap-8">
 {Object.entries(data).map(([cat, items])=> (
 <div key={cat} className="rounded-2xl border border-white/10 p-6 bg-white/5">

@@ -1,7 +1,6 @@
-// src/pages/Nosotros.jsx
-import teamImg from '../assets/m4.png';
-import team from '../assets/m5.png';
-import promoVideo from '../assets/promo.mp4';
+import teamImg from '../assets/A1.jpg';
+import team from '../assets/A4.jpg';
+
 
 export default function Nosotros(){
   return (
@@ -12,16 +11,12 @@ export default function Nosotros(){
         {/* Texto */}
         <div className="space-y-3 text-white/80">
           <p>
-            Somos Cordelia mariscos, seleccionamos mariscos frescos de temporada
-            para crear platillos con identidad costera.
+          Hace 12 años, nació nuestro Centro de Rehabilitación con un sueño claro: brindar un espacio seguro y profesional donde cada persona pudiera recuperar su bienestar físico y emocional. Desde entonces, hemos acompañado a cientos de pacientes en su camino hacia la recuperación, combinando atención personalizada, terapias innovadoras y un equipo humano comprometido con la salud de nuestros usuarios.
           </p>
           <p>
-            Somos un equipo local comprometido con el producto del día, técnicas
-            limpias y sabor honesto.
+           Hoy, después de 12 años de trabajo, seguimos siendo un referente de calidad y confianza, y nuestra mayor satisfacción es ver cómo cada paciente alcanza sus metas y recupera su independencia y calidad de vida. Cada historia de éxito nos inspira a seguir adelante y a continuar ofreciendo un servicio que combina experiencia, dedicación y calidez humana.
           </p>
-          <p>
-            Nuestra misión es acercar el mar a tu mesa con hospitalidad y calidez.
-          </p>
+          
         </div>
 
         {/* Columna de imágenes (mismo tamaño/estilo para ambas) */}
@@ -57,18 +52,8 @@ export default function Nosotros(){
       <hr className="my-10 border-white/10" />
 
       {/* ---------- VIDEO LOCAL (sin bordes) ---------- */}
-      <div className="mt-10">
-        <h3 className="text-xl md:text-2xl font-bold">Video</h3>
-        <div className="mt-4 relative w-full aspect-video overflow-hidden">
-          <video
-            src={promoVideo}
-            controls
-            playsInline
-            preload="metadata"
-            className="absolute inset-0 h-full w-full object-cover m-0 p-0 border-0 outline-none"
-          />
-        </div>
-      </div>
+     
+    
     </section>
   );
 }

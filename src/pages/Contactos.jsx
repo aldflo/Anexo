@@ -1,9 +1,9 @@
 // src/pages/Contacto.jsx
 
 const MAP_EMBED =
-  "https://www.google.com/maps?q=19.8401943,-90.547116(Cordelia%20Mariscos)&z=17&output=embed";
+ "https://www.google.com/maps?q=19.8401943,-90.547116&z=17&output=embed";
 // Abre la app de Google Maps (tu link)
-const MAP_DIRECTIONS = "https://maps.app.goo.gl/Ku8mTWYK8wjvuN2H9";
+const MAP_DIRECTIONS = "https://maps.app.goo.gl/FHPjUw9QskG2WafDA";
 
 export default function Contacto() {
   return (
@@ -20,19 +20,18 @@ export default function Contacto() {
             allowFullScreen
             referrerPolicy="no-referrer-when-downgrade"
             className="absolute inset-0 w-full h-full border-0"
-            title="Ubicación Cordelia Mariscos"
+            title="Ubicación Centro de Reabilitacion"
           />
         </div>
 
         {/* Datos */}
         <div className="space-y-4">
-          <h2 className="text-xl font-semibold">Cordelia Mariscos</h2>
+          <h2 className="text-xl font-semibold">Un Nuevo Despertar</h2>
           <p className="text-white/80">
-            Av. Justo Sierra Méndez 497, Barrio de San Román, San Francisco de Campeche, Camp.
-            <br />
+            Av. Lázaro Cárdenas 117, Sector, Las Flores, 24095 San Francisco de Campeche, Camp.
             L–D 12:00–22:00 • Tel.{" "}
             <a href="tel:+529811026456" className="text-turquesa underline hover:opacity-80">
-              (981) 102 6456
+              (981) 1951394
             </a>
           </p>
 
@@ -47,23 +46,9 @@ export default function Contacto() {
 
           {/* Redes rápidas */}
           <div className="flex items-center gap-3">
+           
             <a
-              href="https://www.instagram.com/cordeliamariscos/"
-              target="_blank" rel="noopener noreferrer" aria-label="Instagram"
-              className="rounded-full p-[2px] hover:scale-105 transition"
-              style={{ background: "linear-gradient(45deg,#f9ce34,#ee2a7b 45%,#6228d7)" }}
-            >
-              <div className="rounded-full p-3">
-                <svg viewBox="0 0 24 24" className="w-6 h-6 text-white" fill="none" stroke="currentColor" strokeWidth="2">
-                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-                  <circle cx="12" cy="12" r="4" />
-                  <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none" />
-                </svg>
-              </div>
-            </a>
-
-            <a
-              href="https://www.facebook.com/cordeliamariscos/"
+              href="https://www.facebook.com/crunnuevodespertar"
               target="_blank" rel="noopener noreferrer" aria-label="Facebook"
               className="rounded-full p-3 hover:scale-105 transition" style={{ background: "#1877F2" }}
             >
@@ -73,7 +58,7 @@ export default function Contacto() {
             </a>
 
             <a
-              href="https://wa.me/529811026456?text=Hola%20quiero%20reservar%20una%20mesa"
+              href="https://wa.me/529811951394?text=Hola%20quiero%20reservar%20una%20mesa"
               target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"
               className="rounded-full p-3 hover:scale-105 transition" style={{ background: "#25D366" }}
             >

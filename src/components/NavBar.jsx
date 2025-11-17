@@ -32,7 +32,7 @@ export default function NavBar() {
             className="h-9 w-9 rounded-full object-cover"
           />
           <span className="font-bold tracking-wide text-yellow-300">
-            CORDELIA MARISCOS
+          UN NUEVO DESPERTAR
           </span>
         </Link>
 
