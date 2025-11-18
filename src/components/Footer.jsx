@@ -2,7 +2,7 @@ export default function Footer(){
   // 🔁 Cambia estos links y el número de WhatsApp
   const LINKS = {  
     facebook:  'https://www.facebook.com/crunnuevodespertar',  
-    whatsapp:  'https://wa.me/529811951394?text=Hola%20quiero%20reservar%20una%20mesa'
+    whatsapp:  'https://wa.me/529811951494?text=Hola%20quiero%20reservar%20una%20mesa'
   };
 
   // Iconos SVG (sin dependencias)
@@ -32,7 +32,7 @@ export default function Footer(){
         <div>
           <h4 className="font-semibold">Un Nuevo Despertar</h4>
           <p className="text-white/70">Av. Lázaro Cárdenas 117, Sector, Las Flores, 24095 San Francisco de Campeche, Camp.</p>
-          <p className="text-white/70">L–D 12:00–22:00 • Tel:  (981) 1951394</p>
+          <p className="text-white/70">L–D 12:00–22:00 • Tel:  (981) 1951494</p>
         </div>
 
         <div>

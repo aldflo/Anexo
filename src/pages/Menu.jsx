@@ -1,12 +1,27 @@
 const data = {
 Servicios: [
-{ name: 'Cristoterapia' , desc: '' },
-{ name: 'Estudio Biblico', desc: '' },
+
+  { name: 'SERVICIO MEDICO', emoji: '🩺' },
+  { name: 'SERVICIO PSICOLOGICO', emoji: '🧠' },
+  { name: 'CONSEJERIA', emoji: '💬' },
+  { name: 'TERAPIA OCUPACIONAL', emoji: '🤲' },
+  { name: 'ESTUDIO BIBLICO', emoji: '📖' },
+  { name: 'PROGRAMA 12 PASOS', emoji: '🔄' },
+  { name: 'CRISTOTERAPIA', emoji: '✝️' },
+  { name: 'ACONDICIONAMIENTO FISICO', emoji: '🏋️‍♂️' },
+  { name: 'Cristoterapia', emoji: '✝️' }, // Repetido, mismo emoji
+  { name: 'Estudio Biblico', emoji: '📖' }, // Repetido
 ],
+
+
 Instalaciones: [
-{ name: 'Recamaras Climatizadas' },
-{ name: 'Sanitarios Limpios' },
+  { name: 'RECAMARAS CLIMATIZADAS', emoji: '🛏️❄️' },
+  { name: 'SANITARIOS LIMPIOS', emoji: '🚻✨' },
+  { name: 'COMEDOR CLIMATIZADO', emoji: '🍽️❄️' },
+  { name: 'AREA DE PSICOLOGIA', emoji: '🧠🏢' },
 ],
+
+
 
 }
 
@@ -27,7 +42,7 @@ return (
 <p className="font-semibold">{it.name}</p>
 <p className="text-sm text-white/70">{it.desc}</p>
 </div>
-<span className="text-coral font-bold whitespace-nowrap">${it.price}</span>
+<span className="text-coral font-bold whitespace-nowrap">{it.price}</span>
 </li>
 ))}
 </ul>

@@ -1,7 +1,7 @@
 // src/components/NavBar.jsx
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../assets/cordeliamenu.jpg'; // ⬅️ pon tu logo
+import logo from '../assets/A2.jpeg'; // ⬅️ pon tu logo
 
 export default function NavBar() {
   const [open, setOpen] = useState(false);

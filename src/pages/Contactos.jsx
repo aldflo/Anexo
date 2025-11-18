@@ -30,8 +30,8 @@ export default function Contacto() {
           <p className="text-white/80">
             Av. Lázaro Cárdenas 117, Sector, Las Flores, 24095 San Francisco de Campeche, Camp.
             L–D 12:00–22:00 • Tel.{" "}
-            <a href="tel:+529811026456" className="text-turquesa underline hover:opacity-80">
-              (981) 1951394
+            <a href="tel:+529811951494" className="text-turquesa underline hover:opacity-80">
+              (981) 1951494
             </a>
           </p>
 
@@ -58,7 +58,7 @@ export default function Contacto() {
             </a>
 
             <a
-              href="https://wa.me/529811951394?text=Hola%20quiero%20reservar%20una%20mesa"
+              href="https://wa.me/529811951494?text=Hola%20quiero%20reservar%20una%20mesa"
               target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"
               className="rounded-full p-3 hover:scale-105 transition" style={{ background: "#25D366" }}
             >
