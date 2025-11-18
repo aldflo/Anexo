@@ -2,7 +2,7 @@ export default function Footer(){
   // 🔁 Cambia estos links y el número de WhatsApp
   const LINKS = {  
     facebook:  'https://www.facebook.com/crunnuevodespertar',  
-    whatsapp:  'https://wa.me/529811951494?text=Hola%20quiero%20reservar%20una%20mesa'
+    whatsapp:  'https://wa.me/529811951494?text=Hola%20quiero%20mas%20informacion'
   };
 
   // Iconos SVG (sin dependencias)
